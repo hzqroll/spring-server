@@ -1,0 +1,266 @@
+[INFO][2017-12-07 15:16:10,168][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[DEBUG][2017-12-07 15:16:10,300][org.springframework.web.context.support.StandardServletEnvironment]Initializing new StandardServletEnvironment
+[DEBUG][2017-12-07 15:16:10,303][org.springframework.web.context.support.StandardServletEnvironment]Adding [servletConfigInitParams] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:10,304][org.springframework.web.context.support.StandardServletEnvironment]Adding [servletContextInitParams] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:10,313][org.springframework.web.context.support.StandardServletEnvironment]Adding [jndiProperties] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:10,317][org.springframework.web.context.support.StandardServletEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:10,323][org.springframework.web.context.support.StandardServletEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:10,333][org.springframework.web.context.support.StandardServletEnvironment]Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+[INFO][2017-12-07 15:16:10,341][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 07 15:16:10 CST 2017]; root of context hierarchy
+[DEBUG][2017-12-07 15:16:10,348][org.springframework.web.context.support.StandardServletEnvironment]Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+[DEBUG][2017-12-07 15:16:10,534][org.springframework.core.env.StandardEnvironment]Initializing new StandardEnvironment
+[DEBUG][2017-12-07 15:16:10,535][org.springframework.core.env.StandardEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:10,536][org.springframework.core.env.StandardEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:10,536][org.springframework.core.env.StandardEnvironment]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[DEBUG][2017-12-07 15:16:10,538][org.springframework.core.env.StandardEnvironment]Initializing new StandardEnvironment
+[DEBUG][2017-12-07 15:16:10,538][org.springframework.core.env.StandardEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:10,539][org.springframework.core.env.StandardEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:10,539][org.springframework.core.env.StandardEnvironment]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[DEBUG][2017-12-07 15:16:10,553][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Looking for matching resources in directory tree [/Users/roll/GitHub/springserver/target/classes]
+[DEBUG][2017-12-07 15:16:10,554][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Searching directory [/Users/roll/GitHub/springserver/target/classes] for files matching pattern [/Users/roll/GitHub/springserver/target/classes/*.xml]
+[DEBUG][2017-12-07 15:16:10,557][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Resolved location pattern [classpath*:*.xml] to resources [file [/Users/roll/GitHub/springserver/target/classes/common.xml]]
+[INFO][2017-12-07 15:16:10,558][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from file [/Users/roll/GitHub/springserver/target/classes/common.xml]
+[DEBUG][2017-12-07 15:16:10,566][org.springframework.beans.factory.xml.DefaultDocumentLoader]Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[DEBUG][2017-12-07 15:16:10,685][org.springframework.beans.factory.xml.PluggableSchemaResolver]Loading schema mappings from [META-INF/spring.schemas]
+[DEBUG][2017-12-07 15:16:10,690][org.springframework.beans.factory.xml.PluggableSchemaResolver]Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+[DEBUG][2017-12-07 15:16:10,691][org.springframework.beans.factory.xml.PluggableSchemaResolver]Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+[DEBUG][2017-12-07 15:16:10,840][org.springframework.beans.factory.xml.PluggableSchemaResolver]Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+[DEBUG][2017-12-07 15:16:10,848][org.springframework.beans.factory.xml.PluggableSchemaResolver]Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+[DEBUG][2017-12-07 15:16:10,870][org.springframework.beans.factory.xml.PluggableSchemaResolver]Found XML schema [http://www.springframework.org/schema/task/spring-task-3.1.xsd] in classpath: org/springframework/scheduling/config/spring-task-3.1.xsd
+[DEBUG][2017-12-07 15:16:10,885][org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader]Loading bean definitions
+[DEBUG][2017-12-07 15:16:10,922][org.springframework.beans.factory.xml.DefaultNamespaceHandlerResolver]Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+[DEBUG][2017-12-07 15:16:10,959][org.springframework.core.env.StandardEnvironment]Initializing new StandardEnvironment
+[DEBUG][2017-12-07 15:16:10,960][org.springframework.core.env.StandardEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:10,960][org.springframework.core.env.StandardEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:10,960][org.springframework.core.env.StandardEnvironment]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[INFO][2017-12-07 15:16:10,967][org.springframework.context.annotation.ClassPathBeanDefinitionScanner]JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+[DEBUG][2017-12-07 15:16:10,973][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Looking for matching resources in directory tree [/Users/roll/GitHub/springserver/target/classes/com/roll/comical]
+[DEBUG][2017-12-07 15:16:10,973][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Searching directory [/Users/roll/GitHub/springserver/target/classes/com/roll/comical] for files matching pattern [/Users/roll/GitHub/springserver/target/classes/com/roll/comical/**/*.class]
+[DEBUG][2017-12-07 15:16:10,974][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Searching directory [/Users/roll/GitHub/springserver/target/classes/com/roll/comical/task] for files matching pattern [/Users/roll/GitHub/springserver/target/classes/com/roll/comical/**/*.class]
+[DEBUG][2017-12-07 15:16:10,974][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Resolved location pattern [classpath*:com/roll/comical/**/*.class] to resources [file [/Users/roll/GitHub/springserver/target/classes/com/roll/comical/PrintUtil.class], file [/Users/roll/GitHub/springserver/target/classes/com/roll/comical/task/GenernalTaskPrint.class]]
+[DEBUG][2017-12-07 15:16:11,024][org.springframework.context.annotation.ClassPathBeanDefinitionScanner]Identified candidate component class: file [/Users/roll/GitHub/springserver/target/classes/com/roll/comical/task/GenernalTaskPrint.class]
+[DEBUG][2017-12-07 15:16:11,046][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loaded 9 bean definitions from location pattern [classpath*:*.xml]
+[DEBUG][2017-12-07 15:16:11,047][org.springframework.web.context.support.XmlWebApplicationContext]Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@5cf8676a: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,genernalTaskPrint,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,scheduler]; root of factory hierarchy
+[DEBUG][2017-12-07 15:16:11,110][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,110][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,177][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+[DEBUG][2017-12-07 15:16:11,181][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,307][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+[DEBUG][2017-12-07 15:16:11,307][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+[DEBUG][2017-12-07 15:16:11,311][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0' to allow for resolving potential circular references
+[DEBUG][2017-12-07 15:16:11,408][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Looking for matching resources in directory tree [/Users/roll/GitHub/springserver/target/classes]
+[DEBUG][2017-12-07 15:16:11,409][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Searching directory [/Users/roll/GitHub/springserver/target/classes] for files matching pattern [/Users/roll/GitHub/springserver/target/classes/*.properties]
+[DEBUG][2017-12-07 15:16:11,409][org.springframework.core.io.support.PathMatchingResourcePatternResolver]Resolved location pattern [classpath:*.properties] to resources [file [/Users/roll/GitHub/springserver/target/classes/log4j.properties]]
+[DEBUG][2017-12-07 15:16:11,428][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+[INFO][2017-12-07 15:16:11,429][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from file [/Users/roll/GitHub/springserver/target/classes/log4j.properties]
+[DEBUG][2017-12-07 15:16:11,437][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,438][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[INFO][2017-12-07 15:16:11,442][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[DEBUG][2017-12-07 15:16:11,442][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+[DEBUG][2017-12-07 15:16:11,443][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,443][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,443][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,444][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+[DEBUG][2017-12-07 15:16:11,444][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,444][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,445][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,449][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+[DEBUG][2017-12-07 15:16:11,449][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,450][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[DEBUG][2017-12-07 15:16:11,450][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[DEBUG][2017-12-07 15:16:11,450][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+[DEBUG][2017-12-07 15:16:11,450][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[DEBUG][2017-12-07 15:16:11,450][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAsyncAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,450][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.context.annotation.internalAsyncAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,457][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.context.annotation.internalAsyncAnnotationProcessor' to allow for resolving potential circular references
+[DEBUG][2017-12-07 15:16:11,476][org.springframework.beans.factory.support.DefaultListableBeanFactory]Invoking afterPropertiesSet() on bean with name 'org.springframework.context.annotation.internalAsyncAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,499][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.context.annotation.internalAsyncAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,500][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalScheduledAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,500][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'org.springframework.context.annotation.internalScheduledAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,502][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'org.springframework.context.annotation.internalScheduledAnnotationProcessor' to allow for resolving potential circular references
+[DEBUG][2017-12-07 15:16:11,509][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'org.springframework.context.annotation.internalScheduledAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,512][org.springframework.web.context.support.XmlWebApplicationContext]Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@5a1f778]
+[DEBUG][2017-12-07 15:16:11,516][org.springframework.web.context.support.XmlWebApplicationContext]Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@4f486211]
+[DEBUG][2017-12-07 15:16:11,520][org.springframework.ui.context.support.UiApplicationContextUtils]Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@3e39baf0]
+[INFO][2017-12-07 15:16:11,525][org.springframework.beans.factory.support.DefaultListableBeanFactory]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5cf8676a: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,genernalTaskPrint,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,scheduler,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[DEBUG][2017-12-07 15:16:11,533][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+[DEBUG][2017-12-07 15:16:11,547][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'genernalTaskPrint'
+[DEBUG][2017-12-07 15:16:11,547][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'genernalTaskPrint'
+[DEBUG][2017-12-07 15:16:11,586][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'genernalTaskPrint' to allow for resolving potential circular references
+[DEBUG][2017-12-07 15:16:11,620][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'genernalTaskPrint'
+[DEBUG][2017-12-07 15:16:11,620][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,620][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,620][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,620][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,621][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAsyncAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,621][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalScheduledAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,621][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating shared instance of singleton bean 'scheduler'
+[DEBUG][2017-12-07 15:16:11,623][org.springframework.beans.factory.support.DefaultListableBeanFactory]Creating instance of bean 'scheduler'
+[DEBUG][2017-12-07 15:16:11,631][org.springframework.beans.factory.support.DefaultListableBeanFactory]Eagerly caching bean 'scheduler' to allow for resolving potential circular references
+[DEBUG][2017-12-07 15:16:11,691][org.springframework.core.env.StandardEnvironment]Initializing new StandardEnvironment
+[DEBUG][2017-12-07 15:16:11,697][org.springframework.core.env.StandardEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:11,697][org.springframework.core.env.StandardEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:11,697][org.springframework.core.env.StandardEnvironment]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[DEBUG][2017-12-07 15:16:11,698][org.springframework.core.env.StandardEnvironment]Initializing new StandardEnvironment
+[DEBUG][2017-12-07 15:16:11,699][org.springframework.core.env.StandardEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:11,699][org.springframework.core.env.StandardEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:11,700][org.springframework.core.env.StandardEnvironment]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[DEBUG][2017-12-07 15:16:11,703][org.springframework.core.env.StandardEnvironment]Initializing new StandardEnvironment
+[DEBUG][2017-12-07 15:16:11,704][org.springframework.core.env.StandardEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:11,705][org.springframework.core.env.StandardEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:11,705][org.springframework.core.env.StandardEnvironment]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[DEBUG][2017-12-07 15:16:11,711][org.springframework.core.env.StandardEnvironment]Initializing new StandardEnvironment
+[DEBUG][2017-12-07 15:16:11,711][org.springframework.core.env.StandardEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:11,712][org.springframework.core.env.StandardEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:11,713][org.springframework.core.env.StandardEnvironment]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[DEBUG][2017-12-07 15:16:11,717][org.springframework.core.env.StandardEnvironment]Initializing new StandardEnvironment
+[DEBUG][2017-12-07 15:16:11,719][org.springframework.core.env.StandardEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:11,720][org.springframework.core.env.StandardEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:11,721][org.springframework.core.env.StandardEnvironment]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[DEBUG][2017-12-07 15:16:11,767][org.springframework.beans.factory.support.DefaultListableBeanFactory]Invoking afterPropertiesSet() on bean with name 'scheduler'
+[INFO][2017-12-07 15:16:11,767][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Initializing ExecutorService  'scheduler'
+[DEBUG][2017-12-07 15:16:11,772][org.springframework.beans.factory.support.DefaultListableBeanFactory]Finished creating instance of bean 'scheduler'
+[DEBUG][2017-12-07 15:16:11,772][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[DEBUG][2017-12-07 15:16:11,778][org.springframework.web.context.support.XmlWebApplicationContext]Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@6babffb5]
+[DEBUG][2017-12-07 15:16:11,780][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'lifecycleProcessor'
+[DEBUG][2017-12-07 15:16:11,786][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalScheduledAnnotationProcessor'
+[DEBUG][2017-12-07 15:16:11,795][org.springframework.beans.factory.support.DefaultListableBeanFactory]Returning cached instance of singleton bean 'scheduler'
+[DEBUG][2017-12-07 15:16:11,801][org.springframework.web.context.ContextLoader]Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[INFO][2017-12-07 15:16:15,509][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 5341 ms
+[DEBUG][2017-12-07 15:16:15,510][org.springframework.web.context.support.StandardServletEnvironment]Initializing new StandardServletEnvironment
+[DEBUG][2017-12-07 15:16:15,513][org.springframework.web.context.support.StandardServletEnvironment]Adding [servletConfigInitParams] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:15,514][org.springframework.web.context.support.StandardServletEnvironment]Adding [servletContextInitParams] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:15,515][org.springframework.web.context.support.StandardServletEnvironment]Adding [jndiProperties] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:15,516][org.springframework.web.context.support.StandardServletEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:15,516][org.springframework.web.context.support.StandardServletEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:15,516][org.springframework.web.context.support.StandardServletEnvironment]Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+[DEBUG][2017-12-07 15:16:15,519][org.springframework.web.filter.CharacterEncodingFilter]Initializing filter 'encodingFilter'
+[DEBUG][2017-12-07 15:16:15,541][org.springframework.web.filter.CharacterEncodingFilter]Filter 'encodingFilter' configured successfully
+[DEBUG][2017-12-07 15:16:15,586][org.springframework.web.context.support.StandardServletEnvironment]Initializing new StandardServletEnvironment
+[DEBUG][2017-12-07 15:16:15,587][org.springframework.web.context.support.StandardServletEnvironment]Adding [servletConfigInitParams] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:15,587][org.springframework.web.context.support.StandardServletEnvironment]Adding [servletContextInitParams] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:15,587][org.springframework.web.context.support.StandardServletEnvironment]Adding [jndiProperties] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:15,587][org.springframework.web.context.support.StandardServletEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:15,587][org.springframework.web.context.support.StandardServletEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:15,587][org.springframework.web.context.support.StandardServletEnvironment]Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+[DEBUG][2017-12-07 15:16:15,587][org.springframework.web.servlet.DispatcherServlet]Initializing servlet 'dispatcher'
+[INFO][2017-12-07 15:16:15,588][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcher': initialization started
+[DEBUG][2017-12-07 15:16:15,588][org.springframework.web.servlet.DispatcherServlet]Servlet with name 'dispatcher' will try to create custom WebApplicationContext context of class 'org.springframework.web.context.support.XmlWebApplicationContext', using parent context [Root WebApplicationContext: startup date [Thu Dec 07 15:16:10 CST 2017]; root of context hierarchy]
+[DEBUG][2017-12-07 15:16:15,588][org.springframework.web.context.support.StandardServletEnvironment]Initializing new StandardServletEnvironment
+[DEBUG][2017-12-07 15:16:15,589][org.springframework.web.context.support.StandardServletEnvironment]Adding [servletConfigInitParams] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:15,589][org.springframework.web.context.support.StandardServletEnvironment]Adding [servletContextInitParams] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:15,589][org.springframework.web.context.support.StandardServletEnvironment]Adding [jndiProperties] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:15,589][org.springframework.web.context.support.StandardServletEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:15,589][org.springframework.web.context.support.StandardServletEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:15,590][org.springframework.web.context.support.StandardServletEnvironment]Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+[DEBUG][2017-12-07 15:16:15,590][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'spring.profiles.active' in [servletConfigInitParams]
+[DEBUG][2017-12-07 15:16:15,590][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'spring.profiles.active' in [servletContextInitParams]
+[DEBUG][2017-12-07 15:16:15,590][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'spring.profiles.active' in [jndiProperties]
+[DEBUG][2017-12-07 15:16:15,590][org.springframework.jndi.JndiTemplate]Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[DEBUG][2017-12-07 15:16:15,591][org.springframework.jndi.JndiLocatorDelegate]Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException; remaining name 'spring.profiles.active'
+[DEBUG][2017-12-07 15:16:15,592][org.springframework.jndi.JndiTemplate]Looking up JNDI object with name [spring.profiles.active]
+[DEBUG][2017-12-07 15:16:15,592][org.springframework.jndi.JndiPropertySource]JNDI lookup for name [spring.profiles.active] threw NamingException with message: null. Returning null.
+[DEBUG][2017-12-07 15:16:15,592][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'spring.profiles.active' in [systemProperties]
+[DEBUG][2017-12-07 15:16:15,592][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'spring.profiles.active' in [systemEnvironment]
+[DEBUG][2017-12-07 15:16:15,593][org.springframework.core.env.PropertySourcesPropertyResolver]Could not find key 'spring.profiles.active' in any property source. Returning [null]
+[DEBUG][2017-12-07 15:16:15,593][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'spring.profiles.default' in [servletConfigInitParams]
+[DEBUG][2017-12-07 15:16:15,593][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'spring.profiles.default' in [servletContextInitParams]
+[DEBUG][2017-12-07 15:16:15,593][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'spring.profiles.default' in [jndiProperties]
+[DEBUG][2017-12-07 15:16:15,594][org.springframework.jndi.JndiTemplate]Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[DEBUG][2017-12-07 15:16:15,594][org.springframework.jndi.JndiLocatorDelegate]Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException; remaining name 'spring.profiles.default'
+[DEBUG][2017-12-07 15:16:15,594][org.springframework.jndi.JndiTemplate]Looking up JNDI object with name [spring.profiles.default]
+[DEBUG][2017-12-07 15:16:15,595][org.springframework.jndi.JndiPropertySource]JNDI lookup for name [spring.profiles.default] threw NamingException with message: null. Returning null.
+[DEBUG][2017-12-07 15:16:15,595][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'spring.profiles.default' in [systemProperties]
+[DEBUG][2017-12-07 15:16:15,595][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'spring.profiles.default' in [systemEnvironment]
+[DEBUG][2017-12-07 15:16:15,595][org.springframework.core.env.PropertySourcesPropertyResolver]Could not find key 'spring.profiles.default' in any property source. Returning [null]
+[DEBUG][2017-12-07 15:16:15,595][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'spring.profiles.default' in [servletConfigInitParams]
+[DEBUG][2017-12-07 15:16:15,595][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'spring.profiles.default' in [servletContextInitParams]
+[DEBUG][2017-12-07 15:16:15,596][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'spring.profiles.default' in [jndiProperties]
+[DEBUG][2017-12-07 15:16:15,596][org.springframework.jndi.JndiTemplate]Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[DEBUG][2017-12-07 15:16:15,596][org.springframework.jndi.JndiLocatorDelegate]Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException; remaining name 'spring.profiles.default'
+[DEBUG][2017-12-07 15:16:15,596][org.springframework.jndi.JndiTemplate]Looking up JNDI object with name [spring.profiles.default]
+[DEBUG][2017-12-07 15:16:15,597][org.springframework.jndi.JndiPropertySource]JNDI lookup for name [spring.profiles.default] threw NamingException with message: null. Returning null.
+[DEBUG][2017-12-07 15:16:15,597][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'spring.profiles.default' in [systemProperties]
+[DEBUG][2017-12-07 15:16:15,597][org.springframework.core.env.PropertySourcesPropertyResolver]Searching for key 'spring.profiles.default' in [systemEnvironment]
+[DEBUG][2017-12-07 15:16:15,597][org.springframework.core.env.PropertySourcesPropertyResolver]Could not find key 'spring.profiles.default' in any property source. Returning [null]
+[INFO][2017-12-07 15:16:15,601][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Dec 07 15:16:15 CST 2017]; parent: Root WebApplicationContext
+[DEBUG][2017-12-07 15:16:15,601][org.springframework.web.context.support.StandardServletEnvironment]Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+[DEBUG][2017-12-07 15:16:15,601][org.springframework.web.context.support.StandardServletEnvironment]Replacing [servletConfigInitParams] PropertySource with [servletConfigInitParams]
+[DEBUG][2017-12-07 15:16:15,602][org.springframework.core.env.StandardEnvironment]Initializing new StandardEnvironment
+[DEBUG][2017-12-07 15:16:15,603][org.springframework.core.env.StandardEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:15,603][org.springframework.core.env.StandardEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:15,603][org.springframework.core.env.StandardEnvironment]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[DEBUG][2017-12-07 15:16:15,603][org.springframework.core.env.StandardEnvironment]Initializing new StandardEnvironment
+[DEBUG][2017-12-07 15:16:15,603][org.springframework.core.env.StandardEnvironment]Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:15,603][org.springframework.core.env.StandardEnvironment]Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG][2017-12-07 15:16:15,604][org.springframework.core.env.StandardEnvironment]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[INFO][2017-12-07 15:16:15,604][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+[ERROR][2017-12-07 15:16:15,606][org.springframework.web.servlet.DispatcherServlet]Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:530)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:444)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:631)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:588)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:508)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:449)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:133)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:241)
+	at org.mortbay.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:433)
+	at org.mortbay.jetty.servlet.ServletHolder.doStart(ServletHolder.java:256)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:39)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:612)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:139)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1220)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:510)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:448)
+	at org.mortbay.jetty.plugin.Jetty6PluginWebAppContext.doStart(Jetty6PluginWebAppContext.java:110)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:39)
+	at org.mortbay.jetty.handler.HandlerCollection.doStart(HandlerCollection.java:152)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:156)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:39)
+	at org.mortbay.jetty.handler.HandlerCollection.doStart(HandlerCollection.java:152)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:39)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:222)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:39)
+	at org.mortbay.jetty.plugin.Jetty6PluginServer.start(Jetty6PluginServer.java:132)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:371)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:307)
+	at org.mortbay.jetty.plugin.AbstractJettyRunMojo.execute(AbstractJettyRunMojo.java:203)
+	at org.mortbay.jetty.plugin.Jetty6RunMojo.execute(Jetty6RunMojo.java:184)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+	at org.codehaus.classworlds.Launcher.main(Launcher.java:47)
+Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:140)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
+	... 62 more
