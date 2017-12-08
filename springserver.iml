@@ -6,6 +6,10 @@
         <fileset id="fileset" name="Common" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/common.xml</file>
         </fileset>
+        <fileset id="fileset2" name="Dispatcher Servlet" removed="false">
+          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/common.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>
@@ -20,6 +24,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.9" level="application_server_libraries" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:3.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-asm:3.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:3.1.4.RELEASE" level="project" />

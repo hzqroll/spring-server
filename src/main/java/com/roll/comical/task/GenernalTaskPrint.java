@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class GenernalTaskPrint {
-	@Scheduled(fixedDelay = 1000)
+	@Scheduled(fixedDelay = 100000)
 	public void print() {
 		System.out.println(new Date());
 	}
