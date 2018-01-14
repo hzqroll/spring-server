@@ -1,6 +1,7 @@
 package com.roll.comical.executor;
 
 import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
 
 /**
  * Date: 05/01/2018
@@ -11,6 +12,9 @@ public class ExecutorTest {
 	public static void main(String[] args) {
 		Executor executor = new NewExecutor();
 		executor.execute(new NewThread(1));
+
+		Executor executor1 = Executors.newSingleThreadExecutor();
+		NewThread thread = new NewThread(2);
 	}
 }
 
