@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="connectionFactory" class="com.roll.comical.rabbitmq.RabbitMQConnectionFactory">
+        <constructor-arg index="0" value="localhost"/>
+        <constructor-arg index="1" value="5762"/>
+        <constructor-arg index="2" value="guest"/>
+        <constructor-arg index="3" value="guest"/>
+    </bean>
+
+</beans>
