@@ -1,9 +1,5 @@
 package com.roll.comical.rabbitmq;
 
-import org.springframework.amqp.AmqpException;
-import org.springframework.amqp.rabbit.connection.AbstractConnectionFactory;
-import org.springframework.amqp.rabbit.connection.Connection;
-
 import com.rabbitmq.client.ConnectionFactory;
 
 /**
@@ -11,12 +7,9 @@ import com.rabbitmq.client.ConnectionFactory;
  *
  * @author zongqiang.hao
  */
-public class RabbitMQConnectionFactory extends AbstractConnectionFactory {
-
-	private static ConnectionFactory connectionFactory;
+public class RabbitMQConnectionFactory extends ConnectionFactory {
 
 	public RabbitMQConnectionFactory(String host, int port, String userName, String password) throws Exception {
-		super(connectionFactory);
 		if (host == null || host.equals("")) {
 			throw new Exception("host 不能为空");
 		}
@@ -34,10 +27,5 @@ public class RabbitMQConnectionFactory extends AbstractConnectionFactory {
 		this.setUsername(userName);
 		this.setPassword(password);
 		this.setConnectionTimeout(1000);
-	}
-
-	@Override
-	public Connection createConnection() throws AmqpException {
-		return null;
 	}
 }

@@ -21,5 +21,7 @@
 
     <task:scheduler id="scheduler" pool-size="10"/>
 
-    <mvc:annotation-driven/>
+    <bean name="baseClass" class="com.roll.comical.invoke.BaseClass">
+        <constructor-arg name="i" value="10"></constructor-arg>
+    </bean>
 </beans>

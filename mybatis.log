@@ -3862,3 +3862,378 @@ Caused by: java.lang.ClassNotFoundException: org.apache.commons.fileupload.FileI
 [INFO][2017-12-08 10:04:32,076][org.springframework.beans.factory.support.DefaultListableBeanFactory]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1abc8a4d: defining beans [testController,genernalTaskPrint,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@71349966
 [INFO][2017-12-08 10:04:32,098][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test/print],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.roll.comical.web.TestController.print()
 [INFO][2017-12-08 10:04:32,207][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcher': initialization completed in 287 ms
+[INFO][2018-01-27 13:13:14,001][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [common.xml]
+[INFO][2018-01-27 13:13:14,821][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [executor/sprint_executor.xml]
+[INFO][2018-01-27 13:13:14,855][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [rabbitmq/rabbitmq.xml]
+[INFO][2018-01-27 13:13:14,899][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@12843fce: startup date [Sat Jan 27 13:13:14 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 13:13:15,615][org.springframework.beans.factory.support.DefaultListableBeanFactory]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@797badd3: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,testController,genernalTaskPrint,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,scheduler,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,threadPoolTaskExecutor,connectionFactory,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[INFO][2018-01-27 13:13:15,762][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Initializing ExecutorService  'scheduler'
+[INFO][2018-01-27 13:13:15,930][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test/print],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.roll.comical.web.TestController.print()
+[INFO][2018-01-27 13:13:16,716][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO][2018-01-27 13:13:16,935][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@12843fce: startup date [Sat Jan 27 13:13:14 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 13:13:16,936][org.springframework.beans.factory.support.DefaultListableBeanFactory]Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@797badd3: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,testController,genernalTaskPrint,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,scheduler,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,threadPoolTaskExecutor,connectionFactory,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[INFO][2018-01-27 13:13:16,937][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO][2018-01-27 13:13:16,944][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Shutting down ExecutorService 'scheduler'
+[INFO][2018-01-27 13:16:12,456][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [common.xml]
+[INFO][2018-01-27 13:16:13,292][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [executor/sprint_executor.xml]
+[INFO][2018-01-27 13:16:13,336][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [rabbitmq/rabbitmq.xml]
+[INFO][2018-01-27 13:16:13,370][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@69d9c55: startup date [Sat Jan 27 13:16:13 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 13:16:13,855][org.springframework.beans.factory.support.DefaultListableBeanFactory]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@78a2da20: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,testController,genernalTaskPrint,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,scheduler,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,threadPoolTaskExecutor,connectionFactory,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[INFO][2018-01-27 13:16:13,959][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Initializing ExecutorService  'scheduler'
+[INFO][2018-01-27 13:16:14,192][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test/print],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.roll.comical.web.TestController.print()
+[INFO][2018-01-27 13:16:14,801][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO][2018-01-27 13:16:14,898][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@69d9c55: startup date [Sat Jan 27 13:16:13 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 13:16:14,899][org.springframework.beans.factory.support.DefaultListableBeanFactory]Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@78a2da20: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,testController,genernalTaskPrint,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,scheduler,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,threadPoolTaskExecutor,connectionFactory,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[INFO][2018-01-27 13:16:14,901][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO][2018-01-27 13:16:14,904][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Shutting down ExecutorService 'scheduler'
+[INFO][2018-01-27 13:17:00,954][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [common.xml]
+[INFO][2018-01-27 13:17:01,577][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [executor/sprint_executor.xml]
+[INFO][2018-01-27 13:17:01,619][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [rabbitmq/rabbitmq.xml]
+[INFO][2018-01-27 13:17:01,673][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@69d9c55: startup date [Sat Jan 27 13:17:01 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 13:17:02,305][org.springframework.beans.factory.support.DefaultListableBeanFactory]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@78a2da20: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,testController,genernalTaskPrint,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,scheduler,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,threadPoolTaskExecutor,connectionFactory,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[INFO][2018-01-27 13:17:02,407][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Initializing ExecutorService  'scheduler'
+[INFO][2018-01-27 13:17:02,645][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test/print],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.roll.comical.web.TestController.print()
+[INFO][2018-01-27 13:17:03,209][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO][2018-01-27 13:17:03,295][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@69d9c55: startup date [Sat Jan 27 13:17:01 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 13:17:03,296][org.springframework.beans.factory.support.DefaultListableBeanFactory]Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@78a2da20: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,testController,genernalTaskPrint,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,scheduler,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,threadPoolTaskExecutor,connectionFactory,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[INFO][2018-01-27 13:17:03,297][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO][2018-01-27 13:17:03,299][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Shutting down ExecutorService 'scheduler'
+[INFO][2018-01-27 13:26:03,453][org.springframework.test.context.TestContextManager]@TestExecutionListeners is not present for class [class com.roll.comical.executor.SpringExecutor]: using defaults.
+[INFO][2018-01-27 13:26:03,875][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [common.xml]
+[INFO][2018-01-27 13:26:04,575][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [executor/spring_executor.xml]
+[INFO][2018-01-27 13:26:04,625][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [rabbitmq/rabbitmq.xml]
+[INFO][2018-01-27 13:26:04,703][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@15975490: startup date [Sat Jan 27 13:26:04 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 13:26:05,288][org.springframework.beans.factory.support.DefaultListableBeanFactory]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@10b48321: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,testController,genernalTaskPrint,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,scheduler,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,threadPoolTaskExecutor,connectionFactory,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[INFO][2018-01-27 13:26:05,390][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Initializing ExecutorService  'scheduler'
+[INFO][2018-01-27 13:26:05,525][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test/print],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.roll.comical.web.TestController.print()
+[INFO][2018-01-27 13:26:06,217][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO][2018-01-27 13:26:06,309][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@15975490: startup date [Sat Jan 27 13:26:04 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 13:26:06,310][org.springframework.beans.factory.support.DefaultListableBeanFactory]Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@10b48321: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,testController,genernalTaskPrint,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,scheduler,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,threadPoolTaskExecutor,connectionFactory,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[INFO][2018-01-27 13:26:06,311][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO][2018-01-27 13:26:06,315][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Shutting down ExecutorService 'scheduler'
+[INFO][2018-01-27 13:27:00,281][org.springframework.test.context.TestContextManager]@TestExecutionListeners is not present for class [class com.roll.comical.executor.SpringExecutor]: using defaults.
+[INFO][2018-01-27 13:27:00,816][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [common.xml]
+[INFO][2018-01-27 13:27:01,570][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [executor/spring_executor.xml]
+[INFO][2018-01-27 13:27:01,634][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [rabbitmq/rabbitmq.xml]
+[INFO][2018-01-27 13:27:01,663][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@15975490: startup date [Sat Jan 27 13:27:01 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 13:27:02,212][org.springframework.beans.factory.support.DefaultListableBeanFactory]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@10b48321: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,testController,genernalTaskPrint,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,scheduler,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,threadPoolTaskExecutor,connectionFactory,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[INFO][2018-01-27 13:27:02,343][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Initializing ExecutorService  'scheduler'
+[INFO][2018-01-27 13:27:02,549][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test/print],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.roll.comical.web.TestController.print()
+[INFO][2018-01-27 13:27:03,251][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO][2018-01-27 13:27:03,443][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@15975490: startup date [Sat Jan 27 13:27:01 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 13:27:03,444][org.springframework.beans.factory.support.DefaultListableBeanFactory]Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@10b48321: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,testController,genernalTaskPrint,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAsyncAnnotationProcessor,org.springframework.context.annotation.internalScheduledAnnotationProcessor,scheduler,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,threadPoolTaskExecutor,connectionFactory,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[INFO][2018-01-27 13:27:03,445][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO][2018-01-27 13:27:03,451][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Shutting down ExecutorService 'scheduler'
+[INFO][2018-01-27 13:35:31,868][org.springframework.test.context.support.DefaultTestContextBootstrapper]Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO][2018-01-27 13:35:31,921][org.springframework.test.context.support.DefaultTestContextBootstrapper]Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3b0143d3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5a8e6209, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4b4523f8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@731a74c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@369f73a2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1f28c152]
+[INFO][2018-01-27 13:35:32,114][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [common.xml]
+[INFO][2018-01-27 13:35:33,101][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [executor/spring_executor.xml]
+[INFO][2018-01-27 13:35:33,133][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [rabbitmq/rabbitmq.xml]
+[INFO][2018-01-27 13:35:33,180][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@2781e022: startup date [Sat Jan 27 13:35:33 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 13:35:34,151][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Initializing ExecutorService  'scheduler'
+[INFO][2018-01-27 13:35:34,838][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test/print]}" onto public java.lang.String com.roll.comical.web.TestController.print()
+[INFO][2018-01-27 13:35:35,086][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@2781e022: startup date [Sat Jan 27 13:35:33 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 13:35:35,196][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@2781e022: startup date [Sat Jan 27 13:35:33 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 13:35:35,450][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[WARN][2018-01-27 13:35:35,665][org.springframework.test.context.TestContextManager]Caught exception while invoking 'beforeTestMethod' callback on TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener@369f73a2] for test method [public void com.roll.comical.executor.SpringExecutor.test()] and test instance [com.roll.comical.executor.SpringExecutor@5d99c6b5]
+java.lang.NoSuchMethodError: org.springframework.core.annotation.AnnotatedElementUtils.getAnnotationAttributes(Ljava/lang/reflect/AnnotatedElement;Ljava/lang/String;)Lorg/springframework/core/annotation/AnnotationAttributes;
+	at org.springframework.transaction.annotation.SpringTransactionAnnotationParser.parseTransactionAnnotation(SpringTransactionAnnotationParser.java:42)
+	at org.springframework.transaction.annotation.AnnotationTransactionAttributeSource.determineTransactionAttribute(AnnotationTransactionAttributeSource.java:154)
+	at org.springframework.transaction.annotation.AnnotationTransactionAttributeSource.findTransactionAttribute(AnnotationTransactionAttributeSource.java:133)
+	at org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource.computeTransactionAttribute(AbstractFallbackTransactionAttributeSource.java:149)
+	at org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource.getTransactionAttribute(AbstractFallbackTransactionAttributeSource.java:100)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.beforeTestMethod(TransactionalTestExecutionListener.java:168)
+	at org.springframework.test.context.TestContextManager.beforeTestMethod(TestContextManager.java:287)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+[INFO][2018-01-27 13:35:35,710][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@2781e022: startup date [Sat Jan 27 13:35:33 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 13:35:35,712][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO][2018-01-27 13:35:35,713][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Shutting down ExecutorService 'scheduler'
+[INFO][2018-01-27 13:48:11,778][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [common.xml]
+[INFO][2018-01-27 13:48:12,600][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [executor/spring_executor.xml]
+[ERROR][2018-01-27 13:48:12,618][org.springframework.test.context.TestContextManager]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@657c8ad9] to prepare test instance [com.roll.comical.executor.SpringExecutor@436a4e4b]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:101)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:331)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:213)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:290)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:292)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:233)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:176)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [executor/spring_executor.xml]; nested exception is java.io.FileNotFoundException: /spring-beans.dtd (No such file or directory)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:409)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:335)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:303)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:251)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:253)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:122)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:250)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContextInternal(CacheAwareContextLoaderDelegate.java:64)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:91)
+	... 24 more
+Caused by: java.io.FileNotFoundException: /spring-beans.dtd (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:623)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startEntity(XMLEntityManager.java:1305)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startDTDEntity(XMLEntityManager.java:1271)
+	at com.sun.org.apache.xerces.internal.impl.XMLDTDScannerImpl.setInputSource(XMLDTDScannerImpl.java:260)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.dispatch(XMLDocumentScannerImpl.java:1167)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.next(XMLDocumentScannerImpl.java:1050)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:964)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:504)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:428)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	... 37 more
+[INFO][2018-01-27 13:49:22,247][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [common.xml]
+[INFO][2018-01-27 13:49:22,814][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [executor/spring_executor.xml]
+[ERROR][2018-01-27 13:49:22,828][org.springframework.test.context.TestContextManager]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@436a4e4b] to prepare test instance [com.roll.comical.executor.SpringExecutor@f2f2cc1]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:101)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:331)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:213)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:290)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:292)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:233)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:176)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 2 in XML document from class path resource [executor/spring_executor.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 8; cvc-elt.1: Cannot find the declaration of element 'beans'.
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:398)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:335)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:303)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:251)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:253)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:122)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:250)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContextInternal(CacheAwareContextLoaderDelegate.java:64)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:91)
+	... 24 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 8; cvc-elt.1: Cannot find the declaration of element 'beans'.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1900)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:740)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:380)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:619)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3129)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:880)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:118)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:504)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:428)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	... 37 more
+[INFO][2018-01-27 13:50:25,740][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [common.xml]
+[INFO][2018-01-27 13:50:26,502][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [executor/spring_executor.xml]
+[INFO][2018-01-27 13:50:26,639][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [rabbitmq/rabbitmq.xml]
+[INFO][2018-01-27 13:50:26,778][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@4c70fda8: startup date [Sat Jan 27 13:50:26 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 13:50:27,369][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Initializing ExecutorService  'scheduler'
+[INFO][2018-01-27 13:50:27,684][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test/print],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.roll.comical.web.TestController.print()
+[INFO][2018-01-27 13:50:28,304][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO][2018-01-27 13:50:28,382][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@4c70fda8: startup date [Sat Jan 27 13:50:26 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 13:50:28,383][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO][2018-01-27 13:50:28,386][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Shutting down ExecutorService 'scheduler'
+[INFO][2018-01-27 14:41:55,990][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [common.xml]
+[INFO][2018-01-27 14:41:56,592][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [executor/spring_executor.xml]
+[INFO][2018-01-27 14:41:56,635][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [rabbitmq/rabbitmq.xml]
+[INFO][2018-01-27 14:41:56,675][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@675d3402: startup date [Sat Jan 27 14:41:56 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 14:41:57,393][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Initializing ExecutorService  'scheduler'
+[INFO][2018-01-27 14:41:57,901][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test/print],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.roll.comical.web.TestController.print()
+[INFO][2018-01-27 14:41:58,765][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[ERROR][2018-01-27 14:41:58,860][org.springframework.test.context.TestContextManager]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@74e28667] to prepare test instance [com.roll.comical.executor.ScheduleTask@1cf6d1be]
+java.lang.IllegalStateException: Encountered invalid @Scheduled method 'test': Cron expression must consist of 6 fields (found 7 in "0/5 0 0 0 0 0 ?")
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduled(ScheduledAnnotationBeanPostProcessor.java:253)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor$1.doWith(ScheduledAnnotationBeanPostProcessor.java:121)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:480)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:458)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.postProcessAfterInitialization(ScheduledAnnotationBeanPostProcessor.java:117)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:421)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1558)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:398)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:111)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:331)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:213)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:290)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:292)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:233)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:176)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+[INFO][2018-01-27 14:41:58,887][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@675d3402: startup date [Sat Jan 27 14:41:56 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 14:41:58,888][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO][2018-01-27 14:41:58,892][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Shutting down ExecutorService 'scheduler'
+[INFO][2018-01-27 14:42:13,873][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [common.xml]
+[INFO][2018-01-27 14:42:14,512][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [executor/spring_executor.xml]
+[INFO][2018-01-27 14:42:14,553][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [rabbitmq/rabbitmq.xml]
+[INFO][2018-01-27 14:42:14,607][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@675d3402: startup date [Sat Jan 27 14:42:14 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 14:42:15,557][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Initializing ExecutorService  'scheduler'
+[INFO][2018-01-27 14:42:15,989][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test/print],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.roll.comical.web.TestController.print()
+[INFO][2018-01-27 14:42:16,614][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[ERROR][2018-01-27 14:42:16,703][org.springframework.test.context.TestContextManager]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@74e28667] to prepare test instance [com.roll.comical.executor.ScheduleTask@1cf6d1be]
+java.lang.IllegalStateException: Encountered invalid @Scheduled method 'test': Range less than minimum (1): '0' in expression "0/5 0 0 0 0 0"
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduled(ScheduledAnnotationBeanPostProcessor.java:253)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor$1.doWith(ScheduledAnnotationBeanPostProcessor.java:121)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:480)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:458)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.postProcessAfterInitialization(ScheduledAnnotationBeanPostProcessor.java:117)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:421)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1558)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:398)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:111)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:331)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:213)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:290)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:292)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:233)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:176)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+[INFO][2018-01-27 14:42:16,716][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@675d3402: startup date [Sat Jan 27 14:42:14 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 14:42:16,717][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO][2018-01-27 14:42:16,721][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Shutting down ExecutorService 'scheduler'
+[INFO][2018-01-27 14:42:46,956][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [common.xml]
+[INFO][2018-01-27 14:42:47,557][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [executor/spring_executor.xml]
+[INFO][2018-01-27 14:42:47,612][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [rabbitmq/rabbitmq.xml]
+[INFO][2018-01-27 14:42:47,693][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@675d3402: startup date [Sat Jan 27 14:42:47 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 14:42:48,334][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Initializing ExecutorService  'scheduler'
+[INFO][2018-01-27 14:42:48,727][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/test/print],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.roll.comical.web.TestController.print()
+[INFO][2018-01-27 14:42:49,223][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Initializing ExecutorService  'threadPoolTaskExecutor'
+[INFO][2018-01-27 14:42:49,319][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@675d3402: startup date [Sat Jan 27 14:42:47 CST 2018]; root of context hierarchy
+[INFO][2018-01-27 14:42:49,320][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]Shutting down ExecutorService 'threadPoolTaskExecutor'
+[INFO][2018-01-27 14:42:49,323][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Shutting down ExecutorService 'scheduler'
+[INFO][2018-02-24 16:04:21,757][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7637f22: startup date [Sat Feb 24 16:04:21 CST 2018]; root of context hierarchy
+[INFO][2018-02-24 16:04:21,837][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [common.xml]
+[INFO][2018-02-24 16:05:56,754][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7637f22: startup date [Sat Feb 24 16:05:56 CST 2018]; root of context hierarchy
+[INFO][2018-02-24 16:05:56,886][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [common.xml]
+[INFO][2018-02-24 16:05:57,718][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from file [/Users/roll/GitHub/spring_server/target/classes/log4j.properties]
+[INFO][2018-02-24 16:05:57,886][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Initializing ExecutorService  'scheduler'
+[INFO][2018-02-24 16:06:33,596][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7637f22: startup date [Sat Feb 24 16:06:33 CST 2018]; root of context hierarchy
+[INFO][2018-02-24 16:06:33,672][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [common.xml]
+[INFO][2018-02-24 16:06:34,468][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from file [/Users/roll/GitHub/spring_server/target/classes/log4j.properties]
+[INFO][2018-02-24 16:06:34,588][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Initializing ExecutorService  'scheduler'
+[INFO][2018-02-24 16:07:10,148][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7637f22: startup date [Sat Feb 24 16:07:10 CST 2018]; root of context hierarchy
+[INFO][2018-02-24 16:07:10,237][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [common.xml]
+[INFO][2018-02-24 16:07:10,922][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from file [/Users/roll/GitHub/spring_server/target/classes/log4j.properties]
+[INFO][2018-02-24 16:07:11,047][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Initializing ExecutorService  'scheduler'
+[INFO][2018-02-24 16:07:52,629][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7637f22: startup date [Sat Feb 24 16:07:52 CST 2018]; root of context hierarchy
+[INFO][2018-02-24 16:07:52,764][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [common.xml]
+[INFO][2018-02-24 16:07:53,473][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from file [/Users/roll/GitHub/spring_server/target/classes/log4j.properties]
+[INFO][2018-02-24 16:07:53,620][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Initializing ExecutorService  'scheduler'
+[INFO][2018-02-26 09:44:32,576][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@544fe44c: startup date [Mon Feb 26 09:44:32 CST 2018]; root of context hierarchy
+[INFO][2018-02-26 09:44:32,705][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [common.xml]
+[INFO][2018-02-26 09:45:24,622][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from file [/Users/roll/GitHub/spring_server/target/classes/log4j.properties]
+[INFO][2018-02-26 09:45:29,660][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@544fe44c: startup date [Mon Feb 26 09:45:29 CST 2018]; root of context hierarchy
+[INFO][2018-02-26 09:45:29,961][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [common.xml]
+[INFO][2018-02-26 10:03:28,216][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from file [/Users/roll/GitHub/spring_server/target/classes/log4j.properties]
+[INFO][2018-02-26 10:03:38,656][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler]Initializing ExecutorService  'scheduler'
